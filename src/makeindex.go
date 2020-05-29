@@ -16,7 +16,7 @@ func main() {
 	s := `<html>
 <body>
 <h2>Hello `+ v +` the Server x1  is running!</h2>
-<h1>The curent server time is <%= new java.util.Date() %></h1>
+<h1>Test to put the artifact on Bitbucket repository </h1>
 </body>
 </html>`
 	fmt.Fprintf(file, s)
