@@ -15,7 +15,7 @@ func main() {
 	v := os.Getenv("name")
 	s := `<html>
 <body>
-<h2>Hello `+ v +` the Server x1  is running!</h2>
+<h2>Hello `+ v +` the Server x2  is running!</h2>
 <h1>Test to put the artifact on Bitbucket repository </h1>
 </body>
 </html>`
